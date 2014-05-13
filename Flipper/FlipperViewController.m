@@ -14,16 +14,18 @@
 
 @implementation FlipperViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)cardClickedButton:(UIButton *)sender {
+    
+    if([sender.currentTitle length]) {
+        [sender setBackgroundImage:[UIImage imageNamed:@"backofcard"] forState:UIControlStateNormal];
+        [sender setTitle:@"" forState:normal];
+    }
+    else {
+        [sender setBackgroundImage:[UIImage imageNamed:@"frontofcard"] forState:UIControlStateNormal];
+        [sender setTitle:@"A♠︎" forState:normal];
+    }
+    
 }
 
 @end
