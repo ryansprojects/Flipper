@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805944C61921BE8C00CF43FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805944C51921BE8C00CF43FA /* Foundation.framework */; };
+		805944C81921BE8C00CF43FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805944C71921BE8C00CF43FA /* CoreGraphics.framework */; };
+		805944CA1921BE8C00CF43FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805944C91921BE8C00CF43FA /* UIKit.framework */; };
+		805944D01921BE8C00CF43FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 805944CE1921BE8C00CF43FA /* InfoPlist.strings */; };
+		805944D21921BE8C00CF43FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 805944D11921BE8C00CF43FA /* main.m */; };
+		805944D61921BE8C00CF43FA /* FlipperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 805944D51921BE8C00CF43FA /* FlipperAppDelegate.m */; };
+		805944D91921BE8C00CF43FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805944D71921BE8C00CF43FA /* Main.storyboard */; };
+		805944DC1921BE8C00CF43FA /* FlipperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805944DB1921BE8C00CF43FA /* FlipperViewController.m */; };
+		805944DE1921BE8C00CF43FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805944DD1921BE8C00CF43FA /* Images.xcassets */; };
+		805944E51921BE8C00CF43FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805944E41921BE8C00CF43FA /* XCTest.framework */; };
+		805944E61921BE8C00CF43FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805944C51921BE8C00CF43FA /* Foundation.framework */; };
+		805944E71921BE8C00CF43FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805944C91921BE8C00CF43FA /* UIKit.framework */; };
+		805944EF1921BE8C00CF43FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 805944ED1921BE8C00CF43FA /* InfoPlist.strings */; };
+		805944F11921BE8C00CF43FA /* FlipperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 805944F01921BE8C00CF43FA /* FlipperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		805944E81921BE8C00CF43FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805944BA1921BE8C00CF43FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805944C11921BE8C00CF43FA;
+			remoteInfo = Flipper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		805944C21921BE8C00CF43FA /* Flipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		805944C51921BE8C00CF43FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		805944C71921BE8C00CF43FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		805944C91921BE8C00CF43FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		805944CD1921BE8C00CF43FA /* Flipper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flipper-Info.plist"; sourceTree = "<group>"; };
+		805944CF1921BE8C00CF43FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		805944D11921BE8C00CF43FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		805944D31921BE8C00CF43FA /* Flipper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flipper-Prefix.pch"; sourceTree = "<group>"; };
+		805944D41921BE8C00CF43FA /* FlipperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipperAppDelegate.h; sourceTree = "<group>"; };
+		805944D51921BE8C00CF43FA /* FlipperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipperAppDelegate.m; sourceTree = "<group>"; };
+		805944D81921BE8C00CF43FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		805944DA1921BE8C00CF43FA /* FlipperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipperViewController.h; sourceTree = "<group>"; };
+		805944DB1921BE8C00CF43FA /* FlipperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipperViewController.m; sourceTree = "<group>"; };
+		805944DD1921BE8C00CF43FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		805944E31921BE8C00CF43FA /* FlipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805944E41921BE8C00CF43FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		805944EC1921BE8C00CF43FA /* FlipperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipperTests-Info.plist"; sourceTree = "<group>"; };
+		805944EE1921BE8C00CF43FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		805944F01921BE8C00CF43FA /* FlipperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipperTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805944BF1921BE8C00CF43FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805944C81921BE8C00CF43FA /* CoreGraphics.framework in Frameworks */,
+				805944CA1921BE8C00CF43FA /* UIKit.framework in Frameworks */,
+				805944C61921BE8C00CF43FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805944E01921BE8C00CF43FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805944E51921BE8C00CF43FA /* XCTest.framework in Frameworks */,
+				805944E71921BE8C00CF43FA /* UIKit.framework in Frameworks */,
+				805944E61921BE8C00CF43FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805944B91921BE8C00CF43FA = {
+			isa = PBXGroup;
+			children = (
+				805944CB1921BE8C00CF43FA /* Flipper */,
+				805944EA1921BE8C00CF43FA /* FlipperTests */,
+				805944C41921BE8C00CF43FA /* Frameworks */,
+				805944C31921BE8C00CF43FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805944C31921BE8C00CF43FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805944C21921BE8C00CF43FA /* Flipper.app */,
+				805944E31921BE8C00CF43FA /* FlipperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805944C41921BE8C00CF43FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				805944C51921BE8C00CF43FA /* Foundation.framework */,
+				805944C71921BE8C00CF43FA /* CoreGraphics.framework */,
+				805944C91921BE8C00CF43FA /* UIKit.framework */,
+				805944E41921BE8C00CF43FA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		805944CB1921BE8C00CF43FA /* Flipper */ = {
+			isa = PBXGroup;
+			children = (
+				805944D41921BE8C00CF43FA /* FlipperAppDelegate.h */,
+				805944D51921BE8C00CF43FA /* FlipperAppDelegate.m */,
+				805944D71921BE8C00CF43FA /* Main.storyboard */,
+				805944DA1921BE8C00CF43FA /* FlipperViewController.h */,
+				805944DB1921BE8C00CF43FA /* FlipperViewController.m */,
+				805944DD1921BE8C00CF43FA /* Images.xcassets */,
+				805944CC1921BE8C00CF43FA /* Supporting Files */,
+			);
+			path = Flipper;
+			sourceTree = "<group>";
+		};
+		805944CC1921BE8C00CF43FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				805944CD1921BE8C00CF43FA /* Flipper-Info.plist */,
+				805944CE1921BE8C00CF43FA /* InfoPlist.strings */,
+				805944D11921BE8C00CF43FA /* main.m */,
+				805944D31921BE8C00CF43FA /* Flipper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		805944EA1921BE8C00CF43FA /* FlipperTests */ = {
+			isa = PBXGroup;
+			children = (
+				805944F01921BE8C00CF43FA /* FlipperTests.m */,
+				805944EB1921BE8C00CF43FA /* Supporting Files */,
+			);
+			path = FlipperTests;
+			sourceTree = "<group>";
+		};
+		805944EB1921BE8C00CF43FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				805944EC1921BE8C00CF43FA /* FlipperTests-Info.plist */,
+				805944ED1921BE8C00CF43FA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805944C11921BE8C00CF43FA /* Flipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805944F41921BE8C00CF43FA /* Build configuration list for PBXNativeTarget "Flipper" */;
+			buildPhases = (
+				805944BE1921BE8C00CF43FA /* Sources */,
+				805944BF1921BE8C00CF43FA /* Frameworks */,
+				805944C01921BE8C00CF43FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flipper;
+			productName = Flipper;
+			productReference = 805944C21921BE8C00CF43FA /* Flipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		805944E21921BE8C00CF43FA /* FlipperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805944F71921BE8C00CF43FA /* Build configuration list for PBXNativeTarget "FlipperTests" */;
+			buildPhases = (
+				805944DF1921BE8C00CF43FA /* Sources */,
+				805944E01921BE8C00CF43FA /* Frameworks */,
+				805944E11921BE8C00CF43FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805944E91921BE8C00CF43FA /* PBXTargetDependency */,
+			);
+			name = FlipperTests;
+			productName = FlipperTests;
+			productReference = 805944E31921BE8C00CF43FA /* FlipperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805944BA1921BE8C00CF43FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Flipper;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RyanSanders;
+				TargetAttributes = {
+					805944E21921BE8C00CF43FA = {
+						TestTargetID = 805944C11921BE8C00CF43FA;
+					};
+				};
+			};
+			buildConfigurationList = 805944BD1921BE8C00CF43FA /* Build configuration list for PBXProject "Flipper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 805944B91921BE8C00CF43FA;
+			productRefGroup = 805944C31921BE8C00CF43FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805944C11921BE8C00CF43FA /* Flipper */,
+				805944E21921BE8C00CF43FA /* FlipperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		805944C01921BE8C00CF43FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805944DE1921BE8C00CF43FA /* Images.xcassets in Resources */,
+				805944D01921BE8C00CF43FA /* InfoPlist.strings in Resources */,
+				805944D91921BE8C00CF43FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805944E11921BE8C00CF43FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805944EF1921BE8C00CF43FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		805944BE1921BE8C00CF43FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805944D21921BE8C00CF43FA /* main.m in Sources */,
+				805944D61921BE8C00CF43FA /* FlipperAppDelegate.m in Sources */,
+				805944DC1921BE8C00CF43FA /* FlipperViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805944DF1921BE8C00CF43FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805944F11921BE8C00CF43FA /* FlipperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		805944E91921BE8C00CF43FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805944C11921BE8C00CF43FA /* Flipper */;
+			targetProxy = 805944E81921BE8C00CF43FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		805944CE1921BE8C00CF43FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805944CF1921BE8C00CF43FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		805944D71921BE8C00CF43FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805944D81921BE8C00CF43FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		805944ED1921BE8C00CF43FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805944EE1921BE8C00CF43FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		805944F21921BE8C00CF43FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		805944F31921BE8C00CF43FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		805944F51921BE8C00CF43FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flipper/Flipper-Prefix.pch";
+				INFOPLIST_FILE = "Flipper/Flipper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		805944F61921BE8C00CF43FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flipper/Flipper-Prefix.pch";
+				INFOPLIST_FILE = "Flipper/Flipper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		805944F81921BE8C00CF43FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flipper.app/Flipper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flipper/Flipper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlipperTests/FlipperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		805944F91921BE8C00CF43FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flipper.app/Flipper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flipper/Flipper-Prefix.pch";
+				INFOPLIST_FILE = "FlipperTests/FlipperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		805944BD1921BE8C00CF43FA /* Build configuration list for PBXProject "Flipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805944F21921BE8C00CF43FA /* Debug */,
+				805944F31921BE8C00CF43FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805944F41921BE8C00CF43FA /* Build configuration list for PBXNativeTarget "Flipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805944F51921BE8C00CF43FA /* Debug */,
+				805944F61921BE8C00CF43FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		805944F71921BE8C00CF43FA /* Build configuration list for PBXNativeTarget "FlipperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805944F81921BE8C00CF43FA /* Debug */,
+				805944F91921BE8C00CF43FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 805944BA1921BE8C00CF43FA /* Project object */;
+}
