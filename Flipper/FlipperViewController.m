@@ -29,9 +29,9 @@
         [sender setTitle:@"" forState:normal];
     }
     else {
-        [sender setBackgroundImage:[UIImage imageNamed:@"frontofcard"] forState:UIControlStateNormal];
         Card *card = [self.deck drawRandomCard];
-        if (card) {
+        if(card) {
+            [sender setBackgroundImage:[UIImage imageNamed:@"frontofcard"] forState:UIControlStateNormal];
             [sender setTitle:card.contents forState:UIControlStateNormal];
         }
     }
