@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8D25B77E-F735-4C3D-B76C-D57D90E2256D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Flipper</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>40E5D55D-B187-4FF2-BCDA-6BB147C9EC65</key>
+		<string>https://github.com/ryansprojects/Flipper.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Flipper.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>40E5D55D-B187-4FF2-BCDA-6BB147C9EC65</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ryansprojects/Flipper.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>40E5D55D-B187-4FF2-BCDA-6BB147C9EC65</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>40E5D55D-B187-4FF2-BCDA-6BB147C9EC65</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Flipper</string>
+		</dict>
+	</array>
+</dict>
+</plist>

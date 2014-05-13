@@ -10,9 +10,16 @@
 
 @interface FlipperViewController ()
 
+@property (strong, nonatomic) PlayingCardDeck *deck;
+
 @end
 
 @implementation FlipperViewController
+
+- (PlayingCardDeck *)deck {
+    if(!_deck) _deck = [[PlayingCardDeck alloc] init];
+    return _deck;
+}
 
 
 - (IBAction)cardClickedButton:(UIButton *)sender {
@@ -23,9 +30,11 @@
     }
     else {
         [sender setBackgroundImage:[UIImage imageNamed:@"frontofcard"] forState:UIControlStateNormal];
-        [sender setTitle:@"A♠︎" forState:normal];
+        Card *card = [self.deck drawRandomCard];
+        if (card) {
+            [sender setTitle:card.contents forState:UIControlStateNormal];
+        }
     }
-    
 }
 
 @end
