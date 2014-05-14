@@ -17,4 +17,5 @@
 + (NSArray *)rankStrings;
 + (NSUInteger)maxRank;
 
+
 @end

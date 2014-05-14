@@ -25,6 +25,7 @@
 		805944E71921BE8C00CF43FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805944C91921BE8C00CF43FA /* UIKit.framework */; };
 		805944EF1921BE8C00CF43FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 805944ED1921BE8C00CF43FA /* InfoPlist.strings */; };
 		805944F11921BE8C00CF43FA /* FlipperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 805944F01921BE8C00CF43FA /* FlipperTests.m */; };
+		8080F60B1923D4B500BBEB90 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080F60A1923D4B500BBEB90 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		805944EC1921BE8C00CF43FA /* FlipperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipperTests-Info.plist"; sourceTree = "<group>"; };
 		805944EE1921BE8C00CF43FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		805944F01921BE8C00CF43FA /* FlipperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipperTests.m; sourceTree = "<group>"; };
+		8080F6091923D4B500BBEB90 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		8080F60A1923D4B500BBEB90 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 				8020589019229EF90057EAB4 /* Card.m */,
 				8020589219229F160057EAB4 /* PlayingCard.h */,
 				802058981922B79B0057EAB4 /* PlayingCardDeck.h */,
+				8080F6091923D4B500BBEB90 /* CardMatchingGame.h */,
+				8080F60A1923D4B500BBEB90 /* CardMatchingGame.m */,
 				802058991922B79B0057EAB4 /* PlayingCardDeck.m */,
 				8020589319229F160057EAB4 /* PlayingCard.m */,
 			);
@@ -282,6 +287,7 @@
 				805944D61921BE8C00CF43FA /* FlipperAppDelegate.m in Sources */,
 				805944DC1921BE8C00CF43FA /* FlipperViewController.m in Sources */,
 				8020589419229F160057EAB4 /* PlayingCard.m in Sources */,
+				8080F60B1923D4B500BBEB90 /* CardMatchingGame.m in Sources */,
 				8020589A1922B79B0057EAB4 /* PlayingCardDeck.m in Sources */,
 				802058971922A40A0057EAB4 /* Deck.m in Sources */,
 				8020589119229EF90057EAB4 /* Card.m in Sources */,
